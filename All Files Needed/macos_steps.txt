@@ -1,0 +1,11 @@
+install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+install ffmpeg
+brew install ffmpeg
+
+make script executable
+chmod +x script_address
+
+execute script
+./extract_frames video_address folder_address
